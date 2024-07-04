@@ -7,9 +7,7 @@ const useSw = (path: string) => {
     if ("serviceWorker" in navigator) {
       navigator.serviceWorker.ready.then(() => {
         SetTransport("CurlMod.LibcurlClient", {
-          wisp: `${location.port == "443" ? "wss://" : "ws://"}${
-            location.host
-          }/w/`
+          wisp: "wss://nebulaproxy.io/wisp"
         });
       })
       navigator.serviceWorker
