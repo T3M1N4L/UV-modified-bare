@@ -1,0 +1,91 @@
+[
+    {
+      "title": "Youtube",
+      "source": "https://youtube.com",
+      "icon": "/assets/youtube.png",
+      "desc": "A viral video app",
+      "type": "default",
+      "id": "1"
+    },
+    {
+      "title": "invidious",
+      "source": "https://inv.tux.pizza/",
+      "icon": "/assets/invidious.png",
+      "desc": "Faster Youtube alternative",
+      "type": "default",
+      "id": "2"
+    },
+    {
+      "title": "Spotify",
+      "source": "https://open.spotify.com/",
+      "icon": "/assets/Spotify.png",
+      "desc": "Listen to all the viral hit music ",
+      "type": "default",
+      "id": "3"
+    },
+    {
+      "title": "Discord",
+      "source": "https://discord.com/channels/@me",
+      "icon": "/assets/dis-cord.png",
+      "desc": "A popular social platform for chatting",
+      "type": "default",
+      "id": "4"
+    },
+    {
+      "title": "Reddit",
+      "source": "https://reddit.com",
+      "icon": "/assets/reddit.png",
+      "desc": "Voice your mind in various communities ",
+      "type": "default",
+      "id": "6"
+    },
+    {
+      "title": "Github",
+      "source": "https://www.github.com",
+      "icon": "/assets/github.png",
+      "desc": "Upload your code in repositories",
+      "type": "default",
+      "id": "7"
+    },
+    {
+      "title": "Vscode",
+      "source": "https://vscode.dev/",
+      "icon": "/assets/vscode.png",
+      "desc": "A simplistic code editor online",
+      "type": "default",
+      "id": "8"
+    },
+    {
+      "title": "Speedrun",
+      "source": "https://speedrun.com",
+      "icon": "/assets/speedrun.png",
+      "desc": "Admire the latest speedruns",
+      "type": "default",
+      "id": "9"
+    },
+    {
+      "title": "Aniwave.to",
+      "source": "https://aniwave.to",
+      "icon": "/assets/aniwave.png",
+      "desc": "watch anime for free with a beautiful UI ", 
+      "type": "default",
+      "id": "10"
+    },
+    {
+      "title": "Anix.to",
+      "source": "https://anix.to",
+      "icon": "/assets/anix.png",
+      "desc": "The main free anime provider's UI", 
+      "type": "default",
+      "id": "11"
+    },
+    {
+      "title": "Radon Games",
+      "source": "https://radon.games/",
+      "icon": "/assets/radon.svg",
+      "desc": "The best game platform to play all the classics",
+      "type": "default",
+      "id": "12"
+    }
+  ]
+  
