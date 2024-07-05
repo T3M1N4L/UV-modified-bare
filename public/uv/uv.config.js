@@ -223,51 +223,7 @@ inject: async (url) => {
     }
     return `
          <script src="//cdn.jsdelivr.net/npm/eruda"></script>
-          <script>
-    function removeAds() {
-      const adKeywords = [
-        'ad',
-        'adsby',
-        'google_ads',
-        'doubleclick',
-        'ad-banner',
-        'ad-container',
-        'ad-slot',
-        'ad-wrapper',
-        'textads',
-        'banner-ads',
-        'banner_ads',
-        'ad-unit',
-        'afs_ads',
-        'ad-zone',
-        'ad-space',
-        'adsbox'
-      ];
-
-      const elements = document.getElementsByTagName('*');
-
-      for (let i = 0; i < elements.length; i++) {
-        const element = elements[i];
-
-        for (const keyword of adKeywords) {
-          if (
-            element.id &&
-            element.id.toLowerCase().includes(keyword) ||
-            element.className &&
-            element.className.toLowerCase().includes(keyword)
-          ) {
-            console.log('Ad detected and removed:', element);
-            // Remove the detected ad element
-            element.parentNode.removeChild(element);
-          }
-        }
-      }
-    }
-
-     window.addEventListener('load', removeAds);
-
-
-    </script>
+         
          <script src="https://raw.githubusercontent.com/T3M1N4L/UV_modified/main/public/mf-adblock.js"></script>  
          <script>
             eruda.init({
